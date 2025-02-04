@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(59, 21, 21);
+    color: white;
+    font-family: var(--fonte2);
+    font-size: 1.5em;
+    padding: 50px;
+}
+
+main{
+    line-height: 2em;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+    margin: 30px 0;
+}
+
+.text1, .text2, .text3{
+    padding: 50px;
+}
+
+.background, .background-manuscrit{
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    box-shadow: inset 2px 1px 3px rgba(0, 0, 0, 0.218);
+}
+
+.background{
+    background: url(../pacote-d012/imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+}
+
+.background__text, .background-manuscrit__text{
+    background-color: rgba(51, 51, 51, 0.762);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.351);
+    color: white;
+    margin: 100px 50px;
+    padding: 10px;
+}
+
+.background-manuscrit{
+    background: url(../pacote-d012/imagens/background002.jpg) center no-repeat fixed;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(59, 21, 21);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px;
+}
