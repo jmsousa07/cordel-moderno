@@ -24,6 +24,10 @@ header{
     padding: 50px;
 }
 
+header > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 main{
     line-height: 2em;
     font-family: var(--fonte3);
@@ -66,4 +70,19 @@ footer{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 15px;
+}
+
+header a, footer  a{
+    text-decoration: none;
+    font-family: var(--fonte2);
+    font-weight: 500;
+    font-size: 1.3em;
+    color: white;
+    padding: 5px;
+}
+
+a:hover{
+    background-color: #D5B4A8;
+    color: rgba(67, 46, 38, 0.937);
+    border-radius: 10px;
 }
